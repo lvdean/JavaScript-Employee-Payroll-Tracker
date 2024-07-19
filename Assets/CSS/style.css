@@ -21,13 +21,14 @@ body {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
+  background-color: rgb(23, 88, 121);
 }
 
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(202, 16%, 87%);
 }
 
 h2 {
@@ -35,7 +36,7 @@ h2 {
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(64, 69%, 92%);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
