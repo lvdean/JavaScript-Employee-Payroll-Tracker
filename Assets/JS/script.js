@@ -53,10 +53,10 @@ const collectEmployees = function () {
     return employees;
   };
 
-//can move to the top
+// Display the average salary
 let total = 0;
 let avg;
-// Display the average salary
+
 const displayAverageSalary = function (employees) {
   console.log(employees)
   console.log(typeof employees)
@@ -74,9 +74,9 @@ const getRandomEmployee = function (employees) {
   const randomEmpl = employees[Math.floor(Math.random() * employees.length)];
   console.log(`Random Employee: ${randomEmpl.firstName} ${randomEmpl.surName} is the choosen Employee`)
 }
-// TODO: Select and display a random employee
 
-// }
+
+
 
 /*
   ====================
